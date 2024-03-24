@@ -1,0 +1,6 @@
+I used row class to create horizontal groups of columns. Inside each row, I used col-lg-6, col-md-12, and col-sm-12 classes for the first row and col-lg-4, col-md-12, and col-sm-12 classes for the second row to create responsive columns that adjust their width based on the screen size. On large (lg) screens, the first row has two columns each taking up half the width of the row (6 out of 12 columns), and the second row has three columns each taking up a third of the width of the row (4 out of 12 columns). On medium (md) and small (sm) screens, each column takes up the full width of the row (12 out of 12 columns), which make them stack vertically.
+I also used a Bootstrap container class. This class centered container with a dynamic width that changes at different breakpoints.
+Each course of the meal are in card. The card-img-top class was used for the images, and the card-body, card-title, and card-text classes were used for the content of the card.
+For The title, I used bootstrap’s text-center class to center the text and I used the my-4 class to add some space between the top and bottom.
+The d-flex class was used to make the column a flex container, and the flex-fill class was used to make the card fill up the available space in the flex container.
+I also added some hover effects to make the page look a little better.
